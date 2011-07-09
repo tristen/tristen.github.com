@@ -1,0 +1,13 @@
+body {
+  font: 13px/20px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #242322;
+  padding: 20px;
+  }
+  
+a {
+  color: #1eeabe;
+  font-weight: bold;
+  }
+a:hover {
+  color: #111;
+  }
