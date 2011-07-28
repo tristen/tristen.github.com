@@ -1,13 +1,311 @@
-body {
-  font: 13px/20px 'Helvetica Neue',Helvetica,Arial,sans-serif;
-  color: #242322;
-  padding: 20px;
+/*-----------------------------------
+  Fonts
+-------------------------------------*/
+@font-face {
+  font-family: 'RothmanPlain';
+  src: url('../fonts/RothmanPlain-webfont.eot');
+  src: url('../fonts/RothmanPlain-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RothmanPlain-webfont.woff') format('woff'),
+    url('../fonts/RothmanPlain-webfont.ttf') format('truetype'),
+    url('../fonts/RothmanPlain-webfont.svg#RothmanPlain') format('svg');
+  font-weight: normal;
+  font-style: normal;
   }
-  
+
+body {
+  background: #fff;
+  font: 13px/20px 'Helvetica Neue', Arial, sans-serif;
+  color: #444;
+  border-top: 10px solid #fff;
+  }
+
+/*-----------------------------------
+  Typography
+-------------------------------------*/
+h1 a {
+  font-weight: normal;
+  }
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+  margin: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  }
+h1 { font-size: 26px; line-height: 30px; margin: 15px 0 5px; }
+h2 { font-size: 22px; line-height: 26px; margin: 0 0 15px; }
+h3 { font-size: 24px; line-height: 28px; margin: 10px 0; }
+h4 { font-size: 22px; line-height: 24px; margin: 10px 0; }
+h5 { font-size: 16px; line-height: 18px; margin: 10px 0; }
+h6 { font-size: 13px; line-height: 20px; margin: 0 0 5px; text-transform: uppercase; }
+
+.post h6 { margin: 20px 0 5px; }
+
 a {
-  color: #1eeabe;
+  color: #1191ad;
+  text-decoration: none;
   font-weight: bold;
   }
 a:hover {
-  color: #111;
+  color: rgb(90, 176, 212)
   }
+.about a.twitter:hover { color: #32ccfe; }
+.about a.pinboard:hover { color: blue; }
+.about a.github:hover { color: #4183C4; }
+
+p {
+  margin: 0 0 15px;
+  }
+blockquote {
+  display: block;
+  margin-left: 20px;
+  padding: 0 10px;
+  border-left: 1px solid #CCC;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  }
+::-moz-selection,  
+::selection {
+  background: rgba(0,0,0,0.10);
+  }
+pre code > span::-moz-selection,
+pre code > span::selection {
+  background: #ff9bf0;
+  }
+
+/*-----------------------------------
+  Layout
+-------------------------------------*/
+.limiter {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  }
+#main {
+  width: 720px;
+  float: left;
+  padding-bottom: 20px;
+  }
+#right {
+  width: 240px;
+  float: left;
+  }
+.posts,
+.single { 
+  margin-top: 20px;
+  }
+.post {
+  position: relative;
+  padding-left: 140px;
+  padding-right: 60px;
+  }
+.date {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 120px;
+  padding: 80px 0 0;
+  }
+
+/*-----------------------------------
+  Global
+-------------------------------------*/
+h1.title {
+  background: #ff4a4b;
+  margin: 0;
+  float: left;
+  display: block;
+  width: 118px;
+  -moz-box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  margin-top: -10px;
+  }
+h1.title a {
+  font-size: 70px;
+  height: 60px;
+  padding-top: 60px;
+  display: block;
+  font-family: RothmanPlain;
+  color: #fff;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-transition: text-shadow 0.3s ease-out;
+  -o-transition: text-shadow 0.3s ease-out;
+  -webkit-transition: text-shadow 0.3s ease-out;
+  transition: text-shadow 0.3s ease-out;
+  }
+h1.title a:hover {
+  text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.3);
+  }
+.about {
+  position: absolute;
+  left: 130px;
+  top: -100px;
+  }
+.about a {
+  color: #444;
+  }
+.about p {
+  display: block;
+  float: left;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 30px;
+  }
+.about span.avatar {
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -30px;
+  display: block;
+  width: 90px;
+  height: 95px;
+  float: left;
+  }
+
+/*-----------------------------------
+  Post Styling
+-------------------------------------*/
+.post h2 a,
+.post h3 a,
+.post h4 a,
+.post h5 a,
+.post h6 a {
+  border-bottom: none;
+  }
+.post a {
+  border-bottom: 1px solid #eee;
+  -moz-transition: border-color 0.3s ease-out;  /* FF4+ */
+  -o-transition: border-color 0.3s ease-out;  /* Opera 10.5+ */
+  -webkit-transition: border-color 0.3s ease-out;  /* Saf3.2+, Chrome */
+  transition: border-color 0.3s ease-out;
+  }
+.post a:hover {
+  border-color: #bbb;
+  }
+.post { font: 16px/22px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2, Times, 'Times New Roman', serif; }
+.date,
+.post blockquote p,
+.post p a { font: bold 16px/23px 'Helvetica Neue', Arial, sans-serif;}
+
+.date {
+  text-align: right;
+  color: #aaa;
+  }
+.date span {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 13px;
+  }
+.date span.day {}
+.date span.month {}
+.date span.year {
+  position: absolute;
+  bottom: -17px;
+  right: 0;
+  font-size: 21px;
+  }
+
+.post ul,
+.post ol {
+  list-style-position: inside;
+  display: block;
+  margin: 5px 0 5px 40px;
+  }
+.post ul {
+  list-style: disc;
+  }
+.post ol {
+  list-style: decimal;
+  }
+
+/*-----------------------------------
+  Single Post Styling
+-------------------------------------*/
+.post h2 a,
+.single h2 {
+  font: normal 34px/37px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2,Times, 'Times New Roman', serif;
+  }
+
+/*-----------------------------------
+  Post Stamp Themes
+-------------------------------------*/
+.post .date { background-repeat: no-repeat; background-position: center right;}
+.post-2011-07-27 .date { background-image: url(../images/poststamps/post-2011-07-17.png); }
+
+@media all and (max-width: 650px) {
+  /*Layout*/
+  .limiter {
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  .header.limiter {
+    padding-bottom: 0;
+  }
+  .post {
+    padding: 0 20px;
+  }
+  #main {
+   width: 100%;
+   margin: 0 auto;
+  }
+  h1.title {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  h1.title a {
+    font-size: 120px;
+    height: 80px;
+    padding-top: 70px;
+  }
+  /*Posts*/
+  h2.title {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  .date {
+    position: relative;
+    font: 16px/22px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2, Times, 'Times New Roman', serif;
+    color: #777;
+    width: 120px;
+    margin: -40px auto 0;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .date span {
+    font-size: 16px;
+    color: #444;
+  }
+  .date span.year {
+    position: static;
+    font-size: inherit;
+  }
+  /*About*/
+  .about {
+    border-top: 4px double #ccc;
+    top: auto;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
+
+/*-----------------------------------
+  Markup free clearing
+  Details: http: //perishablepress.com/press/2009/12/06/new-clearfix-hack
+-------------------------------------*/
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+
+* html .clearfix { height: 1%; } /* IE6 */
+*:first-child + html .clearfix { min-height: 1%; } /* IE7 */

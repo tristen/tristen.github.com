@@ -1,0 +1,10 @@
+destination: ./_site
+auto:        true
+lsi:         false
+server_port: 4000
+pygments:    true
+markdown:    rdiscount
+permalink: /:year/:month/:day/:title.html
+url:         http://tristen.ca/
+rdiscount:
+  extensions: [smart]
