@@ -67,6 +67,8 @@ blockquote {
 ::selection {
   background: rgba(0,0,0,0.10);
   }
+pre code::-moz-selection,
+pre code::selection,
 pre code > span::-moz-selection,
 pre code > span::selection {
   background: #ff9bf0;
