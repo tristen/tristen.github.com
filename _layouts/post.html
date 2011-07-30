@@ -4,8 +4,8 @@ layout: default
 <div class='post single post-{{ page.date | date: "%Y-%m-%d" }}'>
   <h2 class='title'>{{ page.title }}</h2>
   <div class='date' datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    <span class="day">{{ page.date | date: '%d' }}</span>
     <span class="month">{{ page.date | date: '%b' }}</span>
+    <span class="day">{{ page.date | date: '%d' }}</span>
     <span class="year">{{ page.date | date: '%Y' }}</span>
   </div>
   <div class='body'>{{ content }}</div>

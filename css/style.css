@@ -34,8 +34,8 @@ h1 { font-size: 26px; line-height: 30px; margin: 15px 0 5px; }
 h2 { font-size: 22px; line-height: 26px; margin: 0 0 15px; }
 h3 { font-size: 24px; line-height: 28px; margin: 10px 0; }
 h4 { font-size: 22px; line-height: 24px; margin: 10px 0; }
-h5 { font-size: 16px; line-height: 18px; margin: 10px 0; }
-h6 { font-size: 13px; line-height: 20px; margin: 0 0 5px; text-transform: uppercase; }
+h5 { font-size: 18px; line-height: 18px; margin: 10px 0; }
+h6 { font-size: 16px; line-height: 20px; margin: 0 0 5px; }
 
 .post h6 { margin: 20px 0 5px; }
 
@@ -73,7 +73,19 @@ pre code > span::-moz-selection,
 pre code > span::selection {
   background: #ff9bf0;
   }
-
+p small {
+  margin: -10px 0 0;
+  display: block;
+  }
+.post p small a,
+small {
+  font-size: 11px;
+  }
+.post p small a {
+  font-weight: bold;
+  color: #444;
+  border-bottom: none;
+  }
 /*-----------------------------------
   Layout
 -------------------------------------*/
@@ -126,20 +138,24 @@ h1.title {
   margin-top: -10px;
   }
 h1.title a {
-  font-size: 70px;
+  font-size: 75px;
   height: 60px;
-  padding-top: 60px;
+  padding-top: 70px;
   display: block;
   font-family: RothmanPlain;
   color: #fff;
-  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3),
+  2px 2px 0px rgba(0, 0, 0, 0.3),
+  3px 3px 0px rgba(0, 0, 0, 0.3);
   -moz-transition: text-shadow 0.3s ease-out;
   -o-transition: text-shadow 0.3s ease-out;
   -webkit-transition: text-shadow 0.3s ease-out;
   transition: text-shadow 0.3s ease-out;
   }
 h1.title a:hover {
-  text-shadow: -3px 3px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.3),
+  -2px 2px 0px rgba(0, 0, 0, 0.3),
+  -3px 3px 0px rgba(0, 0, 0, 0.3);
   }
 .about {
   position: absolute;
@@ -153,7 +169,6 @@ h1.title a:hover {
   display: block;
   float: left;
   width: 400px;
-  margin-left: 10px;
   margin-top: 30px;
   }
 .about span.avatar {
@@ -193,7 +208,6 @@ h1.title a:hover {
 
 .date {
   text-align: right;
-  color: #aaa;
   }
 .date span {
   font-weight: 800;
@@ -206,7 +220,7 @@ h1.title a:hover {
   position: absolute;
   bottom: -17px;
   right: 0;
-  font-size: 21px;
+  font-size: 20px;
   }
 
 .post ul,
@@ -225,9 +239,12 @@ h1.title a:hover {
 /*-----------------------------------
   Single Post Styling
 -------------------------------------*/
-.post h2 a,
 .single h2 {
   font: normal 34px/37px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2,Times, 'Times New Roman', serif;
+  }
+.post h2 a {
+  font: normal 28px/32px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2,Times, 'Times New Roman', serif;
+  margin-bottom: 5px;
   }
 
 /*-----------------------------------
@@ -274,9 +291,10 @@ h1.title a:hover {
     font: 16px/22px ff-meta-serif-web-pro-1,ff-meta-serif-web-pro-2, Times, 'Times New Roman', serif;
     color: #777;
     width: 120px;
-    margin: -40px auto 0;
+    margin: -30px auto 0;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0 0;
+    height: 100px;
   }
   .date span {
     font-size: 16px;
