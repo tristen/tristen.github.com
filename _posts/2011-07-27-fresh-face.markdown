@@ -9,7 +9,7 @@ building a new site that was technically simpler, that wasn't about showing port
 
 Instead, I want a site for myself that's focused on writing, code and drawings. A more selfish place to document my progression and ideas. I'm going to try and draw a little stamp to go a long with each date and I'll be updating the way the site looks as content grows.
 
-The site has a different layout if you view on a screen size _≤ 650px_  
+The site has a different layout (on browsers that support [media queries](http://www.w3.org/TR/css3-mediaqueries)) if you view on a screen size _≤ 650px_
 
     @media all and (max-width: 650px) { 
       /* css goes here */
