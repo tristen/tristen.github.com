@@ -165,28 +165,20 @@ h1.title a:hover {
   -2px 2px 0px rgba(0, 0, 0, 0.3),
   -3px 3px 0px rgba(0, 0, 0, 0.3);
   }
-.about {
-  position: absolute;
-  left: 130px;
-  top: -100px;
-  }
 .about a {
   color: #444;
   }
-.about p {
-  display: block;
-  float: left;
-  width: 400px;
-  margin-top: 30px;
-  }
-.about span.avatar {
+.about {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   background-position: 0 -30px;
-  display: block;
-  width: 90px;
-  height: 95px;
   float: left;
+  position: absolute;
+  left: 130px;
+  top: -100px;
+  height: 100px;
+  padding-left: 90px;
+  padding-top: 30px;
   }
 
 /*-----------------------------------
@@ -261,11 +253,13 @@ h1.title a:hover {
 .post .date { background-repeat: no-repeat; background-position: center right;}
 .post-2011-07-27 .date { background-image: url(../images/poststamps/post-2011-07-17.png); }
 
-@media all and (max-width: 650px) {
+@media handheld,
+@media projector,
+@media screen and (max-width: 650px) {
   /*Layout*/
   .limiter {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 135px;
   }
   .header.limiter {
     padding-bottom: 0;
