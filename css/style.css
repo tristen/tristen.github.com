@@ -136,8 +136,8 @@ h1.title {
   }
 h1.title a {
   font-size: 75px;
-  height: 60px;
-  padding-top: 70px;
+  line-height: 140px;
+  height: 120px;
   display: block;
   font-family: RothmanPlain;
   color: #fff;
