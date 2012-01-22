@@ -1,10 +1,8 @@
-destination: ./_site
-auto:        true
-lsi:         false
-server_port: 4000
-pygments:    true
-markdown:    rdiscount
+auto: true
+pygments: true
+server: true
+markdown: rdiscount
 permalink: /:year/:month/:day/:title.html
-url:         http://tristen.ca/
+baseurl: 
 rdiscount:
   extensions: [smart]

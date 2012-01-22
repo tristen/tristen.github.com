@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
-<div class='post single post-{{ page.date | date: "%Y-%m-%d" }}'>
-  <h2 class='title'>{{ page.title }}</h2>
-  <div class='date' datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    <span class="month">{{ page.date | date: '%b' }}</span>
-    <span class="day">{{ page.date | date: '%d' }}</span>
-    <span class="year">{{ page.date | date: '%Y' }}</span>
+
+<div class='single'>
+  <div class='post post-{{ page.date | date: '%Y-%m-%d' }} clearfix'>
+    <h2 class='title'><a href='{{ page.url }}'>{{page.title}}</a></h2>
+    <div id='left'>
+      <div class='body'>{{content}}</div>
+      <ul class='share'>
+        <li><a id='twitter' target='_blank' href='http://twitter.com/intent/tweet?status=tristen: tristen.ca{{page.url}}'>Twitter</a></li>
+        <li><a id='rss' target='_blank' href='http://feeds.feedburner.com/fallsemo'>Subscribe</a></li>
+      </ul>
+    </div>
+    <div id='right'>
+      <div class='date' datetime='{{ page.date | date: '%Y-%m-%d' }}'>
+        <span class='year'>{{ page.date | date: '%Y' }}</span>
+        <span class='month-day'>{{ page.date | date: '%B %d' }}</span>
+      </div>
+    </div>
   </div>
-  <div class='body'>{{ content }}</div>
 </div>
