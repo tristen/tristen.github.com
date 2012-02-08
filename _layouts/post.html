@@ -11,6 +11,17 @@ layout: default
         <li><a id='twitter' target='_blank' href='http://twitter.com/intent/tweet?status=tristen: tristen.ca{{page.url}}'>Twitter</a></li>
         <li><a id='rss' target='_blank' href='http://feeds.feedburner.com/fallsemo'>Subscribe</a></li>
       </ul>
+      <div id='disqus_thread'></div>
+      <script>
+          var disqus_shortname = 'tristen';
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href='http://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>
+  <a href='http://disqus.com' class='dsq-brlink'>blog comments powered by <span class='logo-disqus'>Disqus</span></a>
     </div>
     <div id='right'>
       <div class='date' datetime='{{ page.date | date: '%Y-%m-%d' }}'>

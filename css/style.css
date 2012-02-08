@@ -141,11 +141,11 @@ small {
 .about {
   font-size: 0.8185em;
   position: absolute;
-  top: 80px;
+  top: 110px;
   left: 20px;
-  width: 95px;
+  width: 80px;
   text-align: left;
-  color: #fff;
+  color: white;
   }
   .about iframe {
     width: 120px!important;
@@ -236,6 +236,7 @@ ul.share {
 -------------------------------------*/
 .post .date { background-repeat: no-repeat; background-position: -10px -10px;}
 .post-2011-07-27 .date { background-image: url(../images/poststamps/post-2011-07-17.png); }
+.post-2012-02-06 .date { background: url(../images/poststamps/post-2012-02-06.png) no-repeat 0 15px; }
 
 @media all and (orientation:portrait) {
   body {
