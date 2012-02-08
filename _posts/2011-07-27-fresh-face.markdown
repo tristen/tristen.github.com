@@ -4,8 +4,7 @@ date: 2011-07-27
 title: A Fresh Face
 ---
 
-I'm starting anew. Since I started working at [Development Seed](http://developmentseed.org/team/tristen-brown) in January of this year I've thought about 
-building a new site that was technically simpler, that wasn't about showing portfolio work and that wasn't Drupal.
+I'm starting anew. Since I started working at [Development Seed](http://developmentseed.org/team/tristen-brown) in January of this year I've thought about building a new site that was technically simpler, that wasn't about showing portfolio work and that wasn't Drupal.
 
 Instead, I want a site for myself that's focused on writing, code and drawings. A more selfish place to document my progression and ideas. I'm going to try and draw a little stamp to go a long with each date and I'll be updating the way the site looks as content grows.
 
