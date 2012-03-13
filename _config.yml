@@ -3,6 +3,9 @@ pygments: true
 server: true
 markdown: rdiscount
 permalink: /:year/:month/:day/:title.html
+columnist:
+  paths:
+  - _posts
 baseurl: 
 rdiscount:
   extensions: [smart]
