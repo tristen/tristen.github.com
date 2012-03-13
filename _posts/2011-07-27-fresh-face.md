@@ -1,5 +1,5 @@
 ---
-title: "Anew"
+title: "A Fresh Face"
 subtitle: ""
 layout: "post"
 category: ""
