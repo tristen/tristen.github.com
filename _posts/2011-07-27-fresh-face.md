@@ -1,10 +1,11 @@
 ---
 title: "A Fresh Face"
 subtitle: ""
-layout: "post"
+layout: "undefined"
 category: ""
 permalink: ""
 image: ""
+hidden: true
 ---
 
 I'm starting anew. Since I started working at [Development Seed](http://developmentseed.org/team/tristen-brown) in January of this year I've thought about building a new site that was technically simpler, that wasn't about showing portfolio work and that wasn't Drupal.
@@ -22,4 +23,5 @@ The site has a different layout on browsers that support [media queries](http://
 For fonts, I'm using helvetica as a base and [font fonts](https://www.fontfont.com), '[Meta Serif Web Pro](http://typekit.com/fonts/ff-meta-serif-web-pro)' for paragraphs via Typekit.
 
 [Jekyll](https://github.com/mojombo/jekyll) powers the site and [GitHub pages](http://pages/github.com) hosts it.
+
 
