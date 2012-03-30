@@ -5,7 +5,7 @@ layout: "undefined"
 category: ""
 permalink: ""
 image: ""
-hidden: true
+hidden: false
 ---
 
 I'm starting anew. Since I started working at [Development Seed](http://developmentseed.org/team/tristen-brown) in January of this year I've thought about building a new site that was technically simpler, that wasn't about showing portfolio work and that wasn't Drupal.
