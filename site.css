@@ -39,24 +39,6 @@ table { border-collapse: collapse; border-spacing:0; }
 /* remember to define focus styles. Hee Haw */
 :focus { outline:0; }
 
-@font-face {
-  font-family:'Forsythe Medium';
-  src: url('webfonts/forsythe-medium.eot') format('eot');
-  src: url('webfonts/forsythe-medium.eot?#iefix') format('embedded-opentype'),
-       url('webfonts/forsythe-medium.woff') format('woff');
-       url('webfonts/forsythe-medium.ttf') format('truetype'),
-       url('webfonts/forsythe-medium.svg#rothmanplain') format('svg');
-  }
-@font-face {
-  font-family:'Forsythe Book';
-  src: url('webfonts/forsythe-book.eot') format('eot');
-  src: url('webfonts/forsythe-book.eot?#iefix') format('embedded-opentype'),
-       url('webfonts/forsythe-book.woff') format('woff');
-       url('webfonts/forsythe-book.ttf') format('truetype'),
-       url('webfonts/forsythe-book.svg#rothmanplain') format('svg');
-  }
-
-
 *::-webkit-scrollbar {
     background:#fff;
     width:15px;
@@ -67,21 +49,17 @@ table { border-collapse: collapse; border-spacing:0; }
   border:5px #fff solid;
   }
 
-.prose {
-  font:15px/22px 'Century Schoolbook',Century,Serif;
-  }
-
 /*-----------------------------------
   Typography
 -------------------------------------*/
 body {
-  font:13px/18px 'Century Schoolbook',Century,Serif;
+  font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#000;
   margin:0; padding:0;
   overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
   }
 input {
-  font:15px/22px 'Century Schoolbook',Century,Serif;
   max-width:100%;
   vertical-align:middle;
   background:#fff;
@@ -105,136 +83,180 @@ a {
   color:#000;
   }
 
-/*-----------------------------------
-  Global Layout
--------------------------------------*/
-.limiter {
-  max-width:1200px;
-  margin:0px auto;
-  padding:0 40px;
-  }
-.section {
-  padding-bottom:40px;
+#header {
+  background:#fff;
+  position:relative;
+  padding:60px 40px 40px;
+  height:200px;
+  z-index:10;
+  -webkit-box-shadow:0 2px 8px rgba(0, 0, 0, 0.25);
+          box-shadow:0 2px 8px rgba(0, 0, 0, 0.25);
   }
 
-/*-----------------------------------
-  Section: Heading
--------------------------------------*/
 #masthead {
-  font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background:#202020;
-  color:#626d75;
-  height:35px;
-  position:absolute;
+  height:300px;
+  }
+  #masthead #t-toggle {
+    display:none;
+    }
+
+/*
+#header ul {
   width:100%;
-  top:0;left:0;right:0;
-  z-index:1000;
-  overflow:hidden;
-  -webkit-transition:height 400ms cubic-bezier(0.435, 0.705, 0.000, 1.000);
-     -moz-transition:height 400ms cubic-bezier(0.435, 0.705, 0.000, 1.000);
-      -ms-transition:height 400ms cubic-bezier(0.435, 0.705, 0.000, 1.000);
-       -o-transition:height 400ms cubic-bezier(0.435, 0.705, 0.000, 1.000);
-          transition:height 400ms cubic-bezier(0.435, 0.705, 0.000, 1.000);
-  -webkit-transition-timing-function:cubic-bezier(0.435, 0.705, 0.000, 1.000);
-     -moz-transition-timing-function:cubic-bezier(0.435, 0.705, 0.000, 1.000);
-      -ms-transition-timing-function:cubic-bezier(0.435, 0.705, 0.000, 1.000);
-       -o-transition-timing-function:cubic-bezier(0.435, 0.705, 0.000, 1.000);
-          transition-timing-function:cubic-bezier(0.435, 0.705, 0.000, 1.000);
+  margin:0 auto;
+  text-align:center;
   }
-  #masthead.active {
-    height:300px;
+  #header ul li {
+    display:inline-block;
     }
-  #masthead a {
-    color:#f3734f;
-    text-decoration:none;
-    font-weight:bold;
-    }
-    #masthead a:hover {
-      color:#f6957a;
-      }
-      #masthead ul li a {
-        display:block;
-        }
 
-  #t-toggle {
-    background:#303030;
-    height:35px;
-    display:block;
-    position:absolute;
-    width:100%;
-    bottom:0;left:0;right:0;
-    -webkit-transition: background-color 0.1s linear;
-       -moz-transition: background-color 0.1s linear;
-         -o-transition: background-color 0.1s linear;
-            transition: background-color 0.1s linear;
-    }
-    .active #t-toggle,
-    #t-toggle:hover {
-      background:#292929;
-      }
-    #t-toggle span {
-      background:#5f5f5f;
-      position:absolute;
-      display:block;
-      left:50%;
-      bottom:10px;
-      width:16px;
-      height:16px;
-      margin-left:-8px;
-      line-height:16px;
-      text-align:center;
-      text-indent:-999em;
-      -webkit-border-radius:50%;
-              border-radius:50%;
-      }
-      .active #t-toggle span {
-        background:transparent url(images/sprite.png) no-repeat -20px 0;
-        }
-
-#masthead h2,
-#masthead h3 {
-  font-weight:700;
-  color:#fff;
-  }
-
-.col4 {
-  float:left;
-  width:25%;
-  }
-.inner {
-  padding:40px 20px 0 0;
-  }
-
-#masthead .icon {
-  width:40px;
-  height:40px;
-  float:left;
-  margin:10px 5px 20px 0;
-  }
 .icon {
-  background:transparent url(images/sprite.png) no-repeat -2px 0;
+  background:transparent url(images/sprite.png) no-repeat 0 0;
+  width:60px;
+  height:60px;
   display:block;
-  width:20px;
-  height:20px;
   text-indent:-999em;
   }
-.icon.home          { background-position:0 -20px; }
-.icon.twitter       { background-position:-45px -20px; }
-.icon.github        { background-position:-90px -20px; }
-.icon.home:hover    { background-position:-135px -20px; }
-.icon.twitter:hover { background-position:-180px -20px; }
-.icon.github:hover  { background-position:-225px -20px; }
+  .icon.twitter,
+  .icon.github {
+    margin:10px 0;
+    opacity:0.15;
+    -webkit-transition:opacity 0.1s linear;
+       -moz-transition:opacity 0.1s linear;
+         -o-transition:opacity 0.1s linear;
+            transition:opacity 0.1s linear;
+    }
+  .icon.twitter:hover,
+  .icon.github:hover {
+    opacity:1;
+    }
+  .icon.twitter  { background-position:0 0; margin-right:5px; }
+  .icon.github   { background-position:-65px 0; }
+*/
 
+.map-container {
+  position:relative;
+  height:440px;
+  }
 #map {
+  background:#ebf7ff;
   position:absolute;
   top:0;bottom:0;left:0;right:0;
   height:100%;
   width:100%;
   }
-
 #map .zoomer {
-  top:45px;
+  border-color:#fff;
   }
+
+.marker {
+  background:#F3734F;
+  color:#fff;
+  font-weight:500;
+  font-weight:bold;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  margin:-30px 0px 0px -15px;
+  z-index:100000;
+  cursor:pointer;
+  pointer-events:auto;
+  text-align:center;
+  -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.25);
+          box-shadow:0 2px 4px rgba(0,0,0,0.25);
+  -webkit-border-radius:50%;
+          border-radius:50%;
+  }
+.m-popup {
+  font:500 13px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position:relative;
+  border:1px solid #ccc;
+  background:#fff;
+  color:#303030;
+  position:absolute;
+  left:50%;
+  bottom:35px;
+  width:220px;
+  margin-left:-120px;
+  text-align:left;
+  border:none;
+  display:none;
+  padding:10px;
+  text-align:left;
+  -webkit-animation-duration:150ms;
+     -moz-animation-duration:150ms;
+       -o-animation-duration:150ms;
+          animation-duration:150ms;
+  -webkit-animation-fill-mode:both;
+     -moz-animation-fill-mode:both;
+       -o-animation-fill-mode:both;
+          animation-fill-mode:both;
+  -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.25);
+          box-shadow:0 2px 4px rgba(0,0,0,0.25);
+  -webkit-border-radius:4px;
+          border-radius:4px;
+  }
+  .m-popup:after {
+    top:100%;
+    border:solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    left:50%;
+    position:absolute;
+    pointer-events:none;
+    border-top-color:#fff;
+    border-width:10px;
+    margin-left:-10px;
+    }
+  .m-popup.active {
+    display:block;
+    -webkit-animation-name:fadeUpIn;
+       -moz-animation-name:fadeUpIn;
+         -o-animation-name:fadeUpIn;
+            animation-name:fadeUpIn;
+    }
+  .m-popup .date {
+    font-size:11px;
+    color:#c0c0c0;
+    text-transform:uppercase;
+    }
+  .m-popup h2 {
+    font-weight:bold;
+    margin-bottom:5px;
+    }
+  .m-popup p {
+    color:#626D75;
+    }
+
+@-webkit-keyframes fadeUpIn {
+	0%    { opacity: 0; -webkit-transform: translateY(10px); }
+	100%  { opacity:1; -webkit-transform:translateY(0); }
+  }
+@-moz-keyframes fadeUpIn {
+	0%    { opacity:0; -moz-transform:translateY(10px); }
+	100%  { opacity:1; -moz-transform:translateY(0); }
+  }
+@-o-keyframes fadeUpIn {
+	0%    { opacity:0; -o-transform:translateY(10px); }
+	100%  { opacity:1; -o-transform:translateY(0); }
+  }
+@keyframes fadeUpIn {
+	0%    { opacity:0; transform:translateY(10px); }
+	100%  { opacity:1; transform:translateY(0); }
+  }
+
+/*-----------------------------------
+  Mobile
+-------------------------------------*/
+@media only screen and (max-width:640px) {
+  #masthead {
+    height:440px;
+    }
+  #header {
+    height:340px;
+    }
+}
 
 /*-----------------------------------
   Lil Helpers
@@ -255,27 +277,3 @@ Details: http: //perishablepress.com/press/2009/12/06/new-clearfix-hack*/
   }
 * html .clearfix { height:1%; }
 *:first-child + html .clearfix { min-height:1%; }
-
-/*-----------------------------------
-  Mobile
--------------------------------------*/
-@media only screen and (max-width:640px) {
-  .slide-1.active .presenting {
-    margin-top: 60px;
-  }
-  .limiter {
-    padding: 0 20px;
-    }
-  .col4 {
-    width:100%;
-    }
-   .inner {
-    padding:10px 0 0 0;
-    }
-   .inner h2 {
-    padding-top:10px;
-    }
-  #masthead.active {
-    height:440px;
-    }
-}

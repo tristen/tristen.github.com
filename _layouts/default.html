@@ -12,60 +12,17 @@
   <title>tristen {{page.title}}</title>
   <link rel='shortcut icon' href='{{site.baseurl}}/images/favicon.ico' type='image/x-icon' />
   <link rel='alternate' type='application/atom+xml' title='Tristen Brown' href='http://feeds.feedburner.com/fallsemo'>
+  <link rel='stylesheet' href='{{site.baseurl}}/global.css' />
   <link rel='stylesheet' href='{{site.baseurl}}/site.css' />
   <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.5/mapbox.css' rel='stylesheet' />
 </head>
 <body>
-   <div id='masthead'>
-    <div class='limiter clearfix'>
-      <div class='col4'>
-        <div class='inner'>
-          <h2>Tristen Brown</h2>
-          <p>A Coder/Designer at <a href='http://mapbox.com'>MapBox.</a></p>
-          <a href='http://tristen.ca' class='icon home'>Github</a>
-          <a href='http://twitter.com/fallsemo' class='icon twitter'>Twitter</a>
-          <a href='http://github.com/tristen' class='icon github'>Github</a>
-        </div>
-      </div>
-      <div class='col4'>
-        <div class='inner'>
-          <h3>Projects</h3>
-          <ul>
-            <li>
-              <a href='http://tristen.ca/forsythe/' class='active'>Forsythe Sans</a>
-              <p>A tall open type font.</p>
-            </li>
-            <li>
-              <a href='http://tristen.ca/tablesort/demo/'>tablesort</a>
-               <p>A dependency free sorting component for tables.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class='col4'>
-        <div class='inner'>
-          <h3>&nbsp;</h3>
-          <ul>
-            <li>
-              <a href='http://tristen.ca/hcl-picker/#/hlc/6/1/20313E/EFEE68'>HCL picker</a>
-               <p>A hue, chroma, lightness color picker.</p>
-            </li>
-            <li>
-              <a href='https://github.com/tristen/superman'>Superman</a>
-               <p>A dark vim theme.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <a href='#' id='t-toggle'><span>t</span></a>
-    </div>
-  </div>
+  {% include masthead.html %}
   {{ content }}
   <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.5/mapbox.js'></script>
   <script src='{{site.baseurl}}/site.js'></script>
   <script>
     var tristen = new Tristen();
-    tristen.masthead();
     tristen.frontpage();
   </script>
   <script>
