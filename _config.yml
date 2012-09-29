@@ -1,11 +1,7 @@
 auto: true
-pygments: true
 server: true
 markdown: rdiscount
-permalink: /:year/:month/:day/:title.html
-columnist:
-  paths:
-  - _posts
+permalink: /:title.html
 baseurl: 
 rdiscount:
   extensions: [smart]
