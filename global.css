@@ -105,6 +105,8 @@
   font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:700;
   color:#fff;
+  margin:0;
+  padding:0;
   }
 
 #masthead .icon {
