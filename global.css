@@ -1,12 +1,12 @@
 /*-----------------------------------
   Layout
 -------------------------------------*/
-.limiter {
+#masthead .limiter {
   max-width:1200px;
   margin:0px auto;
   padding:0 40px;
   }
-.inner {
+#masthead .inner {
   padding:40px 20px 0 0;
   }
 
@@ -42,6 +42,13 @@
   #masthead.active {
     height:270px;
     }
+  #masthead ul,
+  #masthead ul li {
+    padding:0;
+    margin:0;
+    list-style:none;
+    }
+
   #masthead a {
     color:#f3734f;
     text-decoration:none;
@@ -53,12 +60,6 @@
       #masthead ul li a {
         display:block;
         }
-
-  #masthead ul,
-  #masthead ul li {
-    padding:0;
-    margin:0;
-    }
 
   #t-toggle {
     background:#303030;
