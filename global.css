@@ -16,7 +16,7 @@
   }
 
 /*-----------------------------------
-  Masthead 
+  Masthead
 -------------------------------------*/
 #masthead {
   font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -53,6 +53,12 @@
       #masthead ul li a {
         display:block;
         }
+
+  #masthead ul,
+  #masthead ul li {
+    padding:0;
+    margin:0;
+    }
 
   #t-toggle {
     background:#303030;
@@ -95,6 +101,7 @@
 
 #masthead h2,
 #masthead h3 {
+  font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight:700;
   color:#fff;
   }
