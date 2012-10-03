@@ -28,12 +28,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="171.45148"
-     inkscape:cy="15.215972"
+     inkscape:zoom="11.313708"
+     inkscape:cx="46.027003"
+     inkscape:cy="47.890942"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
+     inkscape:current-layer="layer2"
+     showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="752"
      inkscape:window-x="28"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -400,20 +400,18 @@
        d="m 155,1012.3622 c -11.04568,0 -20,8.9546 -20,20 0,11.0454 8.95432,20 20,20 11.04568,0 20,-8.9546 20,-20 0,-11.0454 -8.95432,-20 -20,-20 z m 0,10 10,6 0,13 -8,0 0,-5 -2,-1 -2,1 0,5 -8,0 0,-13 10,-6 z"
        style="color:#000000;fill:#f3734f;fill-opacity:0.94117647;fill-rule:nonzero;stroke:none;stroke-width:2.54558444;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
-       style="display:inline;opacity:0.94999999999999996;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;overflow:visible;enable-background:accumulate"
+       style="opacity:0.95;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3882"
-       width="13"
+       width="11"
        height="1"
-       x="43"
-       y="9"
-       transform="translate(0,992.3622)" />
+       x="44"
+       y="1001.3622" />
     <rect
-       style="display:inline;opacity:0.94999999999999996;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;overflow:visible;enable-background:accumulate"
+       style="opacity:0.95;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3884"
        width="1"
-       height="13"
+       height="11.000017"
        x="49"
-       y="3"
-       transform="translate(0,992.3622)" />
+       y="996.36218" />
   </g>
 </svg>
