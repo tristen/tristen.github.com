@@ -1,3 +1,13 @@
+*::-webkit-scrollbar {
+  background:#fff;
+  width:15px;
+  }
+*::-webkit-scrollbar-thumb {
+  background:#ccc;
+  border-radius:15px;
+  border:5px #fff solid;
+  }
+
 /*-----------------------------------
   Layout
 -------------------------------------*/
