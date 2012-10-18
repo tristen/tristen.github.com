@@ -65,6 +65,11 @@
     margin:0;
     list-style:none;
     }
+    #masthead ul li {
+      float:left;
+      width:25%;
+      }
+
   #masthead p {
     margin:0;
     }

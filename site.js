@@ -11,15 +11,44 @@ function addEvent(object, event, method) {
 
 !(function(context) {
     var Tristen = function() {};
-
     Tristen.prototype = {
+        projects: [
+            {
+                "name": "Forsythe Sans",
+                "url": "http://tristen.ca/forsythe/",
+                "description": "A tall open type font."
+            },
+            {
+                "name": "tablesort",
+                "url": "http://tristen.ca/tablesort/demo/",
+                "description": "A dependency free sorting component for tables."
+            },
+            {
+                "name": "HCL Picker",
+                "url": "http://tristen.ca/hcl-picker/#/hlc/6/1/20313E/EFEE68",
+                "description": "A hue, chroma, lightness color picker."
+            },
+            {
+                "name": "Superman",
+                "url": "https://github.com/tristen/superman",
+                "description": "A dark vim theme."
+            }
+        ],
         masthead: function() {
             var m = document.getElementById('masthead');
+            var p = document.getElementById('tristen-projects');
             addEvent(document.getElementById('t-toggle'), 'click', function(e) {
               e.preventDefault();
               e.stopPropagation();
               m.className !== 'active' ? m.className = 'active' : m.className = '';
             });
+
+            for (var i = 0; i < this.projects.length; i++) {
+                var li = document.createElement('li');
+                li.innerHTML = '<a href="' + this.projects[i].url + '">' + this.projects[i].name + '</a>' +
+                '<p>' + this.projects[i].description + '</p>';
+                p.appendChild(li);
+            }
         },
         frontpage: function() {
             var poi =[
