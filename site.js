@@ -21,7 +21,7 @@ function addEvent(object, event, method) {
             {
                 "name": "tablesort",
                 "url": "http://tristen.ca/tablesort/demo/",
-                "description": "A dependency free sorting component for tables."
+                "description": "Dependency free sorting component for tables."
             },
             {
                 "name": "HCL Picker",
