@@ -135,8 +135,8 @@ function addEvent(object, event, method) {
 
             // Set iniital center and zoom
             map.centerzoom({
-                lat: 43.04,
-                lon: -92.86
+                lat: 56.25,
+                lon: -57.35
             }, 3);
         }
     }
