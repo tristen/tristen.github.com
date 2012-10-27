@@ -129,8 +129,6 @@ function addEvent(object, event, method) {
                 return p;
             });
             map.addLayer(markerLayer);
-
-            map.ui.zoomer.add();
             map.setZoomRange(2, 5);
 
             // Set iniital center and zoom

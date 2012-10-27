@@ -19,12 +19,12 @@
   position:static;
   }
 #masthead .inner {
-  width:auto;
-  margin:0;
-  position:static;
-  padding:40px 20px 0 0;
+  padding:40px 0 0 0;
   }
 
+.col {
+  float:left;
+  }
 .col4 {
   float:left;
   width:25%;
@@ -67,11 +67,13 @@
     }
     #masthead ul li {
       float:left;
-      width:25%;
+      width:24%;
+      margin-right:1%;
+      margin-bottom:10px;
       }
 
   #masthead p {
-    margin:0;
+    margin:0 10px 0 0;
     }
 
   #masthead a {
@@ -139,7 +141,7 @@
   width:40px;
   height:40px;
   float:left;
-  margin:10px 5px 20px 0;
+  margin:10px 5px 0 0;
   display:block;
   text-indent:-999em;
   }
@@ -172,4 +174,20 @@
   #masthead.active {
     height:440px;
     }
+  #masthead .limiter {
+    padding:0 20px;
+    }
+  #masthead ul li {
+    width:44%;
+    }
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-pixel-ratio : 2) {
+    #masthead .icon,
+    #t-toggle span {
+      background:transparent url(images/global@2x.png) no-repeat -40px 0;
+      background-size:280px 60px;
+    }
+  }
