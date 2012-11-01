@@ -22,12 +22,11 @@
   padding:40px 0 0 0;
   }
 
-.col {
-  float:left;
-  }
-.col4 {
-  width:25%;
-  }
+.col { float:left; }
+.col.col1 { width:25%; }
+.col.col2 { width:50%; }
+.col.col3 { width:75%; }
+.col.col4 { width:100%; }
 
 /*-----------------------------------
   Masthead
