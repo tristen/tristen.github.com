@@ -160,9 +160,6 @@
   .limiter {
     padding: 0 20px;
     }
-  .col4 {
-    width:100%;
-    }
    .inner {
     padding:10px 0 0 0;
     }
@@ -178,6 +175,11 @@
   #masthead ul li {
     width:44%;
     }
+  .col,
+  .col.col1,
+  .col.col2,
+  .col.col3,
+  .col.col4 { width:100%; }
 }
 
 @media
