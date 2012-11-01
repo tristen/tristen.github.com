@@ -34,13 +34,17 @@ function addEvent(object, event, method) {
                 "description": "A dark vim theme."
             }
         ],
+        _cancel: function(event) {
+            (event.preventDefault) ? event.preventDefault() : event.returnValue = false;
+            (event.stopPropagation) ? event.stopPropagation() : event.cancelBubble = true;
+        },
         masthead: function() {
+            var that = this;
             var m = document.getElementById('masthead');
             var p = document.getElementById('tristen-projects');
             addEvent(document.getElementById('t-toggle'), 'click', function(e) {
-              e.preventDefault();
-              e.stopPropagation();
-              m.className !== 'active' ? m.className = 'active' : m.className = '';
+                that._cancel(e);
+                m.className !== 'active' ? m.className = 'active' : m.className = '';
             });
 
             for (var i = 0; i < this.projects.length; i++) {
