@@ -84,6 +84,7 @@ a {
   }
 
 #masthead {
+  position:relative;
   height:240px;
   }
   #masthead #t-toggle {
@@ -117,24 +118,31 @@ a {
   cursor:pointer;
   pointer-events:auto;
   text-align:center;
+  -webkit-transition:background-color 150ms linear;
+     -moz-transition:background-color 150ms linear;
+       -o-transition:background-color 150ms linear;
+          transition:background-color 150ms linear;
   -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.25);
           box-shadow:0 2px 4px rgba(0,0,0,0.25);
   -webkit-border-radius:50%;
           border-radius:50%;
   }
+  .marker:hover {
+    background-color:#f2663f;
+    }
+  .marker.active {
+    background-color:#404040;
+    }
 .m-popup {
   font:500 13px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  position:relative;
   border:1px solid #ccc;
   background:#fff;
   color:#303030;
   position:absolute;
-  left:50%;
-  bottom:35px;
+  right:-5px;
+  top:34px;
   width:220px;
   margin-left:-120px;
-  text-align:left;
-  border:none;
   display:none;
   padding:10px;
   text-align:left;
@@ -152,19 +160,17 @@ a {
           border-radius:4px;
   }
   .m-popup:after {
-    top:100%;
+    bottom:100%;
     border:solid transparent;
     content:'';
     height:0;
     width:0;
-    left:50%;
+    right:10px;
     position:absolute;
-    pointer-events:none;
-    border-top-color:#fff;
+    border-bottom-color:#fff;
     border-width:10px;
-    margin-left:-10px;
     }
-  .m-popup.active {
+  .active .m-popup {
     display:block;
     -webkit-animation-name:fadeUpIn;
        -moz-animation-name:fadeUpIn;

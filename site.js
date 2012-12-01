@@ -1,4 +1,3 @@
-// http://ejohn.org/apps/jselect/event.html
 function addEvent(object, event, method) {
     if (object.attachEvent) {
         object['e' + event + method] = method;
@@ -123,11 +122,17 @@ function addEvent(object, event, method) {
                             '<p>' + f.properties.description + '</p>';
 
                     p.appendChild(up);
-                    addEvent(p, 'mouseover', function() {
-                       up.className += ' active';
-                    });
-                    addEvent(p, 'mouseout', function() {
-                       up.className = up.className.replace(' active', '');
+
+                    // Center marker on click
+                    MM.addEvent(p, 'click', function(e) {
+                        var pos = MM.getMousePoint(e, map);
+                        var l = map.pointLocation(pos);
+                        $('#map').find('.active').removeClass('active');
+                        p.className += ' active';
+                        map.ease.location({
+                            lat: (l.lat) + 1,
+                            lon: (l.lon) + 1
+                        }).zoom(5).optimal();
                     });
 
                 return p;
