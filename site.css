@@ -164,8 +164,8 @@ pre {
   padding:20px;
   margin:20px 0;
   overflow: auto;
-  -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.30);
-          box-shadow:0 1px 3px rgba(0, 0, 0, 0.30);
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.30);
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.30);
   }
 code {
   font-size:14px;
@@ -351,43 +351,50 @@ p {
   }
 
 .blog h1,
-.blog h2,
-.blog h3,
-.blog h4,
-.blog h5,
-.blog h6,
-.blog p,
-.blog ul,
-.blog ol,
-.blog img,
-.blog blockquote,
-.blog pre,
-.blog iframe {
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6,
+.prose p,
+.prose ul,
+.prose ol,
+.prose img,
+.prose blockquote,
+.prose pre,
+.prose iframe {
   display:block;
   word-wrap:break-word;
   }
-.blog ul,
-.blog ol,
-.blog blockquote,
-.blog pre,
-.blog iframe {
+.prose ul,
+.prose ol,
+.prose blockquote,
+.prose pre,
+.prose iframe {
   margin:0 0 20px;
   }
 
-.blog blockquote,
-.blog table,
-.blog iframe {  margin-bottom:20px; }
+.prose blockquote,
+.prose table,
+.prose iframe {  margin-bottom:20px; }
 
-.blog li {
+.prose li {
   margin-left:30px;
   margin-bottom:10px;
   }
-.blog ul li { list-style:disc; }
-.blog ol li { list-style:decimal; }
+.prose ul li { list-style:disc; }
+.prose ol li { list-style:decimal; }
 
-.blog img {
+.prose img {
   max-width:100%;
   margin:20px auto;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.30);
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.30);
+  }
+.prose .note {
+  padding:10px;
+  margin-bottom:20px;
   }
 
 .end iframe,
