@@ -407,16 +407,23 @@ strong {
   margin-bottom:20px;
   }
 
-.end iframe,
-.hn-share-button {
+.social {
   float:right;
   }
-  .end a {
-    font-weight:bold;
+  .social li {
+    float:left;
+    margin-left:5px;
     }
-    .end a:hover {
-      color:#1bbaec;
-      }
+.hn-share-iframe {
+  position:relative;
+  top:2px;
+  }
+.end a {
+  font-weight:bold;
+  }
+  .end a:hover {
+    color:#1bbaec;
+    }
 
 /*-----------------------------------
   Blog: post specific styles
