@@ -23,7 +23,7 @@ The main application structure is in `Contents > Resources` and it's here you'll
 
 1. I recommend opening this `Resources` directory in your code editor as you begin writing your plugin as you can easily console.log anything while TileMill is running.
 
-2. You'll also want to run the TileMill in Chrome over of its GUI to take advantage of its web inspector tool for debugging. You can do this by navigating to [localhost:20009](http://localhost:20009).![](http://cl.ly/image/2l2f3o3m1c0U/screenshot_2012-12-02Screen%20Shot%202012-12-02%20at%201.10.44%20PM.png)
+2. You'll also want to run the TileMill in Chrome over of its GUI to take advantage of its web inspector tool for debugging. You can do this by navigating to [localhost:20009](http://localhost:20009).![](http://cl.ly/image/2l3L00080j1e/screenshot_2012-12-02Screen%20Shot%202012-12-02%20at%201.26.46%20PM.png)
 
 3. Lastly, open your users plugins directory by navigating to `~/.tilemill/node_modules` If you've downloaded any additional third party plugins they'll show up there. Authoring a plugin should be made here before you publish to the world. 
 
