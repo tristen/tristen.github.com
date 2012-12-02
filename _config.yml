@@ -1,7 +1,8 @@
 auto: true
 server: true
 markdown: rdiscount
-permalink: /:title.html
+permalink: /:categories/:title
+pygments: true
 baseurl: 
 rdiscount:
   extensions: [smart]

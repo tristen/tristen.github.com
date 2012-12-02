@@ -37,6 +37,7 @@ function addEvent(object, event, method) {
             (event.preventDefault) ? event.preventDefault() : event.returnValue = false;
             (event.stopPropagation) ? event.stopPropagation() : event.cancelBubble = true;
         },
+
         masthead: function() {
             var that = this;
             var m = document.getElementById('masthead');

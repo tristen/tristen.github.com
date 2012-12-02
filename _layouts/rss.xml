@@ -1,0 +1,21 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="{{page.url}}" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>{{page.title}} - tristen</title>
+  <link>http://tristen.ca{{page.origin}}</link>
+  <description>{{page.description}}</description>
+  <language>en</language>
+  {% for item in site.categories.blog limit:40 %}
+  <item>
+    <title>{{item.title}}</title>
+    <link>http://tristen.ca{{item.url}}</link>
+    <description>{{item.subtitle | markdownify | xml_escape}}</description>
+    <pubDate>{{item.date | date_to_xmlschema}}</pubDate>
+    <dc:creator>tristen</dc:creator>
+    <guid isPermaLink="true">http://tristen.ca{{item.url}}</guid>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

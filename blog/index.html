@@ -1,0 +1,21 @@
+---
+layout: default
+category: Blog
+title: Blog
+rss: /blog.rss
+class: blog
+---
+
+<div class='limiter'>
+  <div class='headline'>
+    <h2>Blog posts</h2>
+  </div>
+  <table class='reset'>
+    {% for item in site.categories.blog %}
+    <tr>
+      <td class='title'><a href='{{site.baseurl}}{{item.url}}'>{{item.title}}</a></td>
+      <td class='date'>{{item.date | date:"%b %d %Y"}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
