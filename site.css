@@ -432,12 +432,9 @@ strong {
   background-color:#b6e2ee;
   }
   .tilemill-plugins .blog a {
-    color:#000000;
-    border-bottom:1px solid #404040;
+    color:#000;
+    text-decoration:underline;
     }
-    .tilemill-plugins .blog a:hover {
-      border-color:#000;
-      }
 
 /*-----------------------------------
   Pygments
