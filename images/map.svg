@@ -224,11 +224,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.125"
-     inkscape:cx="-1291.4188"
-     inkscape:cy="1277.7227"
+     inkscape:zoom="4"
+     inkscape:cx="1460.3138"
+     inkscape:cy="560.91822"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="752"
@@ -502,7 +502,7 @@
        style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
     <path
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
-       d="m 1470.9958,453.36225 2.998,0 c 1.999,0 1.999,0 1.999,2 l 0,12.06248 c 0,1.93745 0.01,1.93745 -1.9928,1.93745 l -3.0042,4e-5 c -1.9958,3e-5 -1.999,-4e-5 -1.999,-2.06249 l 0,-11.93748 c 0,-2.00007 0,-2.00007 1.999,-2 z m -1.9958,21.99993 9,0 c 2,0 4,-2 4,-4 l 0,-19.99993 c 0,-2.00007 -2,-3.99999 -3.998,-3.99999 l -15.002,0 0,49.99992 5.982,0"
+       d="m 1470.9958,393.36225 2.998,0 c 1.999,0 1.999,0 1.999,2 l 0,12.06248 c 0,1.93745 0.01,1.93745 -1.9928,1.93745 l -3.0042,4e-5 c -1.9958,3e-5 -1.999,-4e-5 -1.999,-2.06249 l 0,-11.93748 c 0,-2.00007 0,-2.00007 1.999,-2 z m -1.9958,21.99993 9,0 c 2,0 4,-2 4,-4 l 0,-19.99993 c 0,-2.00007 -2,-3.99999 -3.998,-3.99999 l -15.002,0 0,49.99992 5.982,0"
        id="path69747"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssscsscccccssccc" />
@@ -676,13 +676,13 @@
        sodipodi:nodetypes="ccccccc" />
     <path
        style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
-       d="m 1444,447.36218 c -2,0 -4,2 -4,4 l 0,42 c 0,2 2,4 4,4 l 12,0 c 2,0 4,-2 4,-4 l 0,-42 c 0,-1.99999 -1.9984,-4 -4,-4 z m 4,6 4,0 c 2,0 2,0 2,2 l 0,34 c 0,2.0001 -0.013,2 -2,2 l -4,0 c -2,0 -2,10e-5 -2,-2 l 0,-34 c 0,-2 0,-2 2,-2 z"
+       d="m 1444,387.36218 c -2,0 -4,2 -4,4 l 0,42 c 0,2 2,4 4,4 l 12,0 c 2,0 4,-2 4,-4 l 0,-42 c 0,-1.99999 -1.9984,-4 -4,-4 z m 4,6 4,0 c 2,0 2,0 2,2 l 0,34 c 0,2.0001 -0.013,2 -2,2 l -4,0 c -2,0 -2,10e-5 -2,-2 l 0,-34 c 0,-2 0,-2 2,-2 z"
        id="path5841"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cssccssccccssssssc" />
     <path
        style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
-       d="m 1578,447.36218 0,46 c 0,2 2,4 4,4 l 11,0 c 2,0 4,-2 4,-4 l 0,-46 -6,0 0,42 c 0,2 0,2 -2,2 l -3,0 c -1.9869,0 -2,10e-5 -2,-2 l 0,-42 z"
+       d="m 1578,387.36218 0,46 c 0,2 2,4 4,4 l 11,0 c 2,0 4,-2 4,-4 l 0,-46 -6,0 0,42 c 0,2 0,2 -2,2 l -3,0 c -1.9869,0 -2,10e-5 -2,-2 l 0,-42 z"
        id="path5859"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csccsccsssscc" />
@@ -1572,7 +1572,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path8480"
-       d="m 2741,552.36218 6,-2 0,5 -6,2 z"
+       d="m 2751,552.36218 6,-2 0,5 -6,2 z"
        style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:nodetypes="ccccc" />
     <path
@@ -1792,17 +1792,41 @@
        d="m 1623.9999,507.36226 0,49.99992 3,0 7.0053,-19.99998 6.9947,19.99998 2.9999,0 0,-49.99992 -3.9999,0 10e-5,36.99995 -6,-17.99999 -6,17.99999 -10e-5,-36.99995 z"
        style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
     <path
-       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4941"
        d="m 1384.9999,372.36218 0,-49.99992 4,0 8.0053,26.99998 7.9947,-26.99998 3.9999,0 0,49.99992 -5.9999,0 10e-5,-28.49995 -6,22.49999 -6,-22.49999 -10e-5,28.49995 z"
-       id="path4852"
+       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
+    <path
+       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
+       d="m 1414.9999,322.36226 0,49.99992 4,0 7.0053,-22.99998 6.9947,22.99998 3.9999,0 0,-49.99992 -5.9999,0 10e-5,29.99995 -5,-18.99999 -5,18.99999 -10e-5,-29.99995 z"
+       id="path4943"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
     <path
        sodipodi:nodetypes="ccccccccccccc"
        inkscape:connector-curvature="0"
-       id="path4858"
-       d="m 1414.9999,322.36226 0,49.99992 4,0 7.0053,-22.99998 6.9947,22.99998 3.9999,0 0,-49.99992 -5.9999,0 10e-5,31.99995 -5,-20.99999 -5,20.99999 -10e-5,-31.99995 z"
+       id="path6274-0"
+       d="m 1484.5001,448.36222 0,49.99992 3,0 7.0053,-24.99998 6.9947,24.99998 2.9999,0 0,-49.99992 -3.9999,0 10e-5,33.99995 -6,-21.99999 -6,21.99999 -10e-5,-33.99995 z"
        style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
+    <path
+       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
+       d="m 1455.5001,498.36214 0,-49.99992 3,0 8.0053,29.99998 7.9947,-29.99998 2.9999,0 0,49.99992 -3.9999,0 10e-5,-30.99995 -7,24.99999 -7,-24.99999 -10e-5,30.99995 z"
+       id="path9849-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 1440.2574,375.77639 4.2426,-7.07106 4.2426,4.24264 -4.2426,7.07106 z"
+       id="path4966"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 1507.818,498.42284 2.8284,-5.65685 3.5356,3.53553 -2.8284,5.65685 z"
+       id="path4968"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2527,7 +2551,7 @@
        height="240"
        x="-1800"
        y="-2276"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2537,7 +2561,7 @@
        width="1000"
        id="rect4185"
        style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2547,7 +2571,7 @@
        height="800"
        x="-1800"
        y="-2016"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2557,7 +2581,7 @@
        height="600"
        x="-1420"
        y="-1876"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2567,7 +2591,7 @@
        width="280"
        id="rect4191"
        style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2577,7 +2601,7 @@
        height="80"
        x="-1140"
        y="-2196"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
@@ -2587,7 +2611,7 @@
        width="286"
        id="rect4197"
        style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
@@ -2597,7 +2621,7 @@
        y="-2146.488"
        id="text4199"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
@@ -2612,7 +2636,7 @@
        x="-1113.208"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
        xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
@@ -2627,7 +2651,7 @@
        x="-1767.932"
        style="font-size:35.60439682px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
        xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
@@ -2647,7 +2671,7 @@
        y="-1915.392"
        id="text4213"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          id="tspan4217"
@@ -2662,7 +2686,7 @@
        x="-1289.624"
        style="font-size:66.99027252px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
        xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
@@ -2674,7 +2698,7 @@
          y="-1532.736"
          x="-1289.624"
          sodipodi:role="line"
-         id="tspan4227">Map &amp; Charts</tspan></text>
+         id="tspan4227">Map &amp; Details</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4231"
@@ -2682,7 +2706,7 @@
        x="-1767.932"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
        xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/1-components.png"
+       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
