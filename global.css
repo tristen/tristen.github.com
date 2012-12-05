@@ -87,21 +87,22 @@
         }
 
   #t-toggle {
-    background:#303030;
+    background:#292929;
     height:30px;
     display:block;
     position:absolute;
     width:100%;
     bottom:0;left:0;right:0;
-    -webkit-transition: background-color 0.1s linear;
-       -moz-transition: background-color 0.1s linear;
-         -o-transition: background-color 0.1s linear;
-            transition: background-color 0.1s linear;
+    opacity:1;
+    -webkit-transition:opacity 250ms linear;
+       -moz-transition:opacity 250ms linear;
+         -o-transition:opacity 250ms linear;
+            transition:opacity 250ms linear;
     }
-    .active #t-toggle,
-    #t-toggle:hover {
-      background:#292929;
+    #masthead.active #t-toggle {
+      opacity:0;
       }
+
     #t-toggle span {
       background:transparent url(images/global.png) no-repeat -40px 0;
       position:absolute;
@@ -114,7 +115,7 @@
       line-height:20px;
       text-align:center;
       text-indent:-999em;
-      opacity:0.75;
+      opacity:0.65;
       -webkit-border-radius:50%;
               border-radius:50%;
       }

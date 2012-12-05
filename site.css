@@ -104,7 +104,7 @@ h2 {
 h3 {
   font-size:15px;
   line-height:1.333em;
-  margin:0 0 20px;
+  margin:0 0 10px;
   }
 
 h4 {
@@ -139,6 +139,9 @@ table {
     .reset th,
     .reset td {
       padding:8px 0;
+      }
+    td.date {
+      text-align:right;
       }
 
   th {

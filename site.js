@@ -1,3 +1,7 @@
+//  hoverintent.js
+//  tristen @fallsemo
+!function(e,t,n){function l(t,n,r){t.attachEvent?(t["e"+n+r]=r,t[n+r]=function(){t["e"+n+r](e.event)},t.attachEvent("on"+n,t[n+r])):t.addEventListener(n,r,!1)}function c(e,t,n){e.detachEvent?(e.detachEvent("on"+t,e[t+n]),e[t+n]=null):e.removeEventListener(t,n,!1)}var r,i,s,o,u=0,a=0,f=function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var i in r)e[i]===n&&(e[i]=r[i])}return e},h={sensitivity:7,interval:100,timeout:0},p=function d(e){if(!this.hover)return new d(e);this.options=f(e||{},d.options,h)};p.options={},f(p.prototype,{hover:function(e,t,n){var r=this;return e&&(l(e,"mouseover",function(e){r.dispatch(e,t,!0)}),l(e,"mouseout",function(e){r.dispatch(e,n)})),r},track:function(e){return r=e.pageX,i=e.pageY,this},compare:function(e,t,n){var f=this;a&&(a=clearTimeout(a));if(Math.abs(s-r)+Math.abs(o-i)<f.options.sensitivity)return c(e,"mousemove",f.track),u=1,t.call(e,n);s=r,o=i,a=setTimeout(function(){f.compare(e,t,n)},f.options.interval)},delay:function(e,t,n){return a&&(a=clearTimeout(a)),u=0,t.call(e,n)},dispatch:function(e,t,n){var r=this,i=e.currentTarget;return a&&(a=clearTimeout(a)),n?(s=e.pageX,o=e.pageY,l(i,"mousemove",r.track(e)),u!==1&&(a=setTimeout(function(){r.compare(i,t,e)},r.options.interval))):(c(i,"mousemove",r.track(e)),u===1&&(a=setTimeout(function(){r.delay(i,t,e)},r.options.timeout))),r}}),e.HoverIntent=p}(window,document);
+
 function addEvent(object, event, method) {
     if (object.attachEvent) {
         object['e' + event + method] = method;
@@ -44,8 +48,18 @@ function addEvent(object, event, method) {
             var p = document.getElementById('tristen-projects');
             addEvent(document.getElementById('t-toggle'), 'click', function(e) {
                 that._cancel(e);
-                m.className !== 'active' ? m.className = 'active' : m.className = '';
+                m.className = 'active';
             });
+
+            var options = {
+                timeout:500
+            }
+
+            var mastheadHover = new HoverIntent(options).hover(m, function() {
+                // nothing.
+            }, function(e) {
+                this.className = '';
+            }, options);
 
             for (var i = 0; i < this.projects.length; i++) {
                 var li = document.createElement('li');
@@ -119,7 +133,7 @@ function addEvent(object, event, method) {
                 var up = document.createElement('div');
                     up.className = 'm-popup';
                     up.innerHTML = '<span class="date">' + f.properties.dates + '</span>' +
-                            '<h2>' + f.properties.title + '</h2>' +
+                            '<h3>' + f.properties.title + '</h3>' +
                             '<p>' + f.properties.description + '</p>';
 
                     p.appendChild(up);
