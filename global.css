@@ -101,6 +101,7 @@
     }
     #masthead.active #t-toggle {
       opacity:0;
+      cursor:default;
       }
 
     #t-toggle span {
