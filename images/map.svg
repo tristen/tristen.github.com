@@ -224,17 +224,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="1460.3138"
-     inkscape:cy="560.91822"
+     inkscape:zoom="0.19127791"
+     inkscape:cx="-56.578581"
+     inkscape:cy="2389.0983"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="752"
-     inkscape:window-x="0"
+     inkscape:window-x="184"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:snap-nodes="true"
      inkscape:snap-global="true"
      showguides="true"
@@ -255,7 +255,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1796,9 +1796,9 @@
        inkscape:connector-curvature="0"
        id="path4941"
        d="m 1384.9999,372.36218 0,-49.99992 4,0 8.0053,26.99998 7.9947,-26.99998 3.9999,0 0,49.99992 -5.9999,0 10e-5,-28.49995 -6,22.49999 -6,-22.49999 -10e-5,28.49995 z"
-       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
+       style="font-size:19.03345679999999973px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed;color:#000000;fill-rule:nonzero;marker:none;visibility:visible;overflow:visible;enable-background:accumulate" />
     <path
-       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
+       style="font-size:19.03345679999999973px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed;color:#000000;fill-rule:nonzero;marker:none;visibility:visible;overflow:visible;enable-background:accumulate"
        d="m 1414.9999,322.36226 0,49.99992 4,0 7.0053,-22.99998 6.9947,22.99998 3.9999,0 0,-49.99992 -5.9999,0 10e-5,29.99995 -5,-18.99999 -5,18.99999 -10e-5,-29.99995 z"
        id="path4943"
        inkscape:connector-curvature="0"
@@ -1808,22 +1808,22 @@
        inkscape:connector-curvature="0"
        id="path6274-0"
        d="m 1484.5001,448.36222 0,49.99992 3,0 7.0053,-24.99998 6.9947,24.99998 2.9999,0 0,-49.99992 -3.9999,0 10e-5,33.99995 -6,-21.99999 -6,21.99999 -10e-5,-33.99995 z"
-       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed" />
+       style="font-size:19.03345679999999973px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed;color:#000000;fill-rule:nonzero;marker:none;visibility:visible;overflow:visible;enable-background:accumulate" />
     <path
-       style="font-size:19.0334568px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed"
+       style="font-size:19.03345679999999973px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:Swis721 Cn BT;-inkscape-font-specification:Swis721 Cn BT Bold Condensed;color:#000000;fill-rule:nonzero;marker:none;visibility:visible;overflow:visible;enable-background:accumulate"
        d="m 1455.5001,498.36214 0,-49.99992 3,0 8.0053,29.99998 7.9947,-29.99998 2.9999,0 0,49.99992 -3.9999,0 10e-5,-30.99995 -7,24.99999 -7,-24.99999 -10e-5,30.99995 z"
        id="path9849-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
     <path
        sodipodi:nodetypes="ccccc"
-       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 1440.2574,375.77639 4.2426,-7.07106 4.2426,4.24264 -4.2426,7.07106 z"
        id="path4966"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="ccccc"
-       style="color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 1507.818,498.42284 2.8284,-5.65685 3.5356,3.53553 -2.8284,5.65685 z"
        id="path4968"
        inkscape:connector-curvature="0" />
@@ -2544,175 +2544,5 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccccc" />
     </g>
-    <rect
-       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4183"
-       width="1000"
-       height="240"
-       x="-1800"
-       y="-2276"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="-2016"
-       x="-1800"
-       height="800"
-       width="1000"
-       id="rect4185"
-       style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4187"
-       width="340.00003"
-       height="800"
-       x="-1800"
-       y="-2016"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4189"
-       width="580"
-       height="600"
-       x="-1420"
-       y="-1876"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="-1956"
-       x="-1420"
-       height="60"
-       width="280"
-       id="rect4191"
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4195"
-       width="300"
-       height="80"
-       x="-1140"
-       y="-2196"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <rect
-       y="-2196"
-       x="-1766"
-       height="80"
-       width="286"
-       id="rect4197"
-       style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
-       xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       x="-1743.932"
-       y="-2146.488"
-       id="text4199"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         sodipodi:role="line"
-         id="tspan4201"
-         x="-1743.932"
-         y="-2146.488"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold">Heading</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4203"
-       y="-2146.272"
-       x="-1113.208"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-2146.272"
-         x="-1113.208"
-         id="tspan4205"
-         sodipodi:role="line">Page Links</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4207"
-       y="-1965.272"
-       x="-1767.932"
-       style="font-size:35.60439682px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-1965.272"
-         x="-1767.932"
-         id="tspan4209"
-         sodipodi:role="line">Recommendations</tspan><tspan
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-1930.272"
-         x="-1767.932"
-         sodipodi:role="line"
-         id="tspan4211">Listing</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:35.60439682px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       x="-1403.208"
-       y="-1915.392"
-       id="text4213"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         id="tspan4217"
-         sodipodi:role="line"
-         x="-1403.208"
-         y="-1915.392"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold">Tabs</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4221"
-       y="-1592.736"
-       x="-1289.624"
-       style="font-size:66.99027252px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-1592.736"
-         x="-1289.624"
-         sodipodi:role="line"
-         id="tspan4223">Table Listing /</tspan><tspan
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-1532.736"
-         x="-1289.624"
-         sodipodi:role="line"
-         id="tspan4227">Map &amp; Details</tspan></text>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4231"
-       y="-2231.488"
-       x="-1767.932"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Helvetica"
-       xml:space="preserve"
-       inkscape:export-filename="/Users/tristen/Dropbox/Camera Uploads/jsi-wires/0.components.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Helvetica Neue LT Std;-inkscape-font-specification:Helvetica Neue LT Std Bold"
-         y="-2231.488"
-         x="-1767.932"
-         id="tspan4233"
-         sodipodi:role="line">Masthead</tspan></text>
   </g>
 </svg>
