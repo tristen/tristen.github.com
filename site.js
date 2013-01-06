@@ -3,7 +3,7 @@
 ;{% include js/dragdealer.min.js %}
 ;{% include js/hoverintent.min.js %}
 
-function addEvent(object, event, method) {
+var addEvent = function(object, event, method) {
     if (object.attachEvent) {
         object['e' + event + method] = method;
         object[event + method] = function(){object['e' + event + method](window.event);};
@@ -11,6 +11,11 @@ function addEvent(object, event, method) {
     } else {
     object.addEventListener(event, method, false);
     }
+}
+
+var cancel = function(event) {
+    (event.preventDefault) ? event.preventDefault() : event.returnValue = false;
+    (event.stopPropagation) ? event.stopPropagation() : event.cancelBubble = true;
 }
 
 !(function(context) {
@@ -56,7 +61,7 @@ function addEvent(object, event, method) {
                 timeout:500
             }
 
-            var mastheadHover = new HoverIntent(options).hover(m, function() {
+            var mastheadHover = hoverintent(options).hover(m, function() {
                 // nothing.
             }, function(e) {
                 this.className = '';
