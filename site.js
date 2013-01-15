@@ -61,11 +61,11 @@ var cancel = function(event) {
                 timeout:500
             }
 
-            var mastheadHover = hoverintent(options).hover(m, function() {
+            var mastheadHover = hoverintent(m, function() {
                 // nothing.
             }, function(e) {
                 this.className = '';
-            }, options);
+            }).options(options);
 
             for (var i = 0; i < this.projects.length; i++) {
                 var li = document.createElement('li');
