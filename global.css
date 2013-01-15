@@ -22,7 +22,7 @@
   padding:40px 0 0 0;
   }
 
-.col { float:left; }
+.col      { float:left; }
 .col.col1 { width:25%; }
 .col.col2 { width:50%; }
 .col.col3 { width:75%; }
