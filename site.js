@@ -146,14 +146,22 @@ var cancel = function(event) {
 
                     // Center marker on click
                     MM.addEvent(p, 'click', function(e) {
-                        var pos = MM.getMousePoint(e, map);
-                        var l = map.pointLocation(pos);
-                        $('#map').find('.active').removeClass('active');
-                        p.className += ' active';
-                        map.ease.location({
-                            lat: (l.lat) + 1,
-                            lon: (l.lon) + 1
-                        }).zoom(5).optimal();
+                        if ($(e.target).hasClass('active')) {
+                            $(e.target).removeClass('active');
+                            map.ease.location({
+                                lat: mapDefaults.lat,
+                                lon: mapDefaults.lon
+                            }).zoom(mapDefaults.zoom).optimal();
+                        } else {
+                            var pos = MM.getMousePoint(e, map);
+                            var l = map.pointLocation(pos);
+                            $('#map').find('.active').removeClass('active');
+                            p.className += ' active';
+                            map.ease.location({
+                                lat: (l.lat) + 1,
+                                lon: (l.lon) + 1
+                            }).zoom(5).optimal();
+                        }
                     });
 
                 return p;
@@ -161,11 +169,17 @@ var cancel = function(event) {
             map.addLayer(markerLayer);
             map.setZoomRange(2, 5);
 
+            var mapDefaults = {
+                lat: 56.25,
+                lon: -57.35,
+                zoom:3
+            }
+
             // Set iniital center and zoom
             map.centerzoom({
-                lat: 56.25,
-                lon: -57.35
-            }, 3);
+                lat: mapDefaults.lat,
+                lon: mapDefaults.lon,
+            }, mapDefaults.zoom);
         }
     }
 
