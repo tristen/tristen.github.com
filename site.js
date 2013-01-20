@@ -11,14 +11,14 @@ var addEvent = function(object, event, method) {
     } else {
     object.addEventListener(event, method, false);
     }
-}
+};
 
 var cancel = function(event) {
     (event.preventDefault) ? event.preventDefault() : event.returnValue = false;
     (event.stopPropagation) ? event.stopPropagation() : event.cancelBubble = true;
-}
+};
 
-!(function(context) {
+(function(context) {
     var Tristen = function() {};
     Tristen.prototype = {
         projects: [
@@ -43,29 +43,22 @@ var cancel = function(event) {
                 "description": "A dark vim theme."
             }
         ],
-        _cancel: function(event) {
-            (event.preventDefault) ? event.preventDefault() : event.returnValue = false;
-            (event.stopPropagation) ? event.stopPropagation() : event.cancelBubble = true;
-        },
 
         masthead: function() {
             var that = this;
             var m = document.getElementById('masthead');
             var p = document.getElementById('tristen-projects');
             addEvent(document.getElementById('t-toggle'), 'click', function(e) {
-                that._cancel(e);
+                cancel(e);
                 m.className = 'active';
             });
 
-            var options = {
-                timeout:500
-            }
-
             var mastheadHover = hoverintent(m, function() {
                 // nothing.
+                this.className += ' open';
             }, function(e) {
                 this.className = '';
-            }).options(options);
+            }).options({timeout:500});
 
             for (var i = 0; i < this.projects.length; i++) {
                 var li = document.createElement('li');
@@ -173,15 +166,15 @@ var cancel = function(event) {
                 lat: 56.25,
                 lon: -57.35,
                 zoom:3
-            }
+            };
 
             // Set iniital center and zoom
             map.centerzoom({
                 lat: mapDefaults.lat,
-                lon: mapDefaults.lon,
+                lon: mapDefaults.lon
             }, mapDefaults.zoom);
         }
-    }
+    };
 
     window.Tristen = Tristen;
 })(window);
