@@ -1,8 +1,3 @@
----
----
-;{% include js/dragdealer.min.js %}
-;{% include js/hoverintent.min.js %}
-
 var addEvent = function(object, event, method) {
     if (object.attachEvent) {
         object['e' + event + method] = method;
