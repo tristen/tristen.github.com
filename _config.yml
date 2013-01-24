@@ -1,6 +1,5 @@
 auto: true
 server: true
-markdown: kramdown
+baseurl:
 permalink: /:categories/:title
 pygments: true
-baseurl: 
