@@ -103,7 +103,7 @@ The rest of the code is now real authoring and specific to table sorting.
 To make your plugin available for others to use you'll need to publish it. Assuming you have [npm](npmjs.org) installed, (_hint:_ this comes bundled with [node.js](http://nodejs.org)) create an npm user account if you haven't done so already by typing `npm adduser` in terminal and following the prompts. The last step is to execute this command in your plugins root directory: 
 
 {% highlight bash %}
-`npm publish`
+npm publish
 {% endhighlight %}
 
 And you're all set. Feeling uninspired? There are lots of [good feature requests that come up](https://github.com/mapbox/tilemill/issues?labels=plugins&page=1&state=open).
