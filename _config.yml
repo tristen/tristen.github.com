@@ -1,8 +1,6 @@
 auto: true
 server: true
-markdown: rdiscount
+markdown: kramdown
 permalink: /:categories/:title
 pygments: true
 baseurl: 
-rdiscount:
-  extensions: [smart]
