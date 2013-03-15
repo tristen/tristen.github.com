@@ -11,7 +11,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
   <meta name='apple-mobile-web-app-status-bar-style' content='white' />
   <meta name='apple-mobile-web-app-capable' content='yes' />
-  <title>tristen | {{page.title}}</title>
+  <title>tristen {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <link rel='shortcut icon' href='{{site.baseurl}}/images/favicon.ico' type='image/x-icon' />
   <link rel='alternate' type='application/rss+xml' title='RSS' href='{{site.url}}/blog/blog.rss' />
   <link rel='stylesheet' href='{{site.baseurl}}/global.css' />
