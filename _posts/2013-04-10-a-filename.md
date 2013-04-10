@@ -1,7 +1,7 @@
 ---
 layout: blog
 category: blog
-published: "true"
+published: "false"
 title: Writing TileMill Plugins in OSX
 permalink: "/blog/writing-tilemill-plugins"
 class: "tilemill-plugins"
