@@ -25,7 +25,7 @@ To take a pen from [Mathias Bynens's post on creating Mac apps](http://mathiasby
 
 ![Show Package Contents osx](http://cl.ly/image/431x2V1m3m3g/screenshot_2012-11-05Screen%20Shot%202012-11-05%20at%208.02.40%20PM.png)
 
-The main application structure is in `Contents > Resources` and it's here you'll find files that resemble [TileMill's master branch](https://github.com/mapbox/tilemill). Have a look at how TileMill is structured. Like a traditional Backbone application the components that make up routing, data retrieval, or rendering are neatly decoupled and added as single files in respective _controllers_, _models_, and _views_ directories. Depending on what you want to do with your plugin, it's these files you'll likely want to scan through.
+The main application structure is in `Contents > Resources` and it's here you'll find files that resemble [TileMill's master branch](https://github.com/mapbox/tilemill). Have a look at how TileMill is structured. Like a traditional Backbone application the components that make up routing, data retrieval, or rendering are neatly decoupled and added as sing files in respective _controllers_, _models_, and _views_ directories. Depending on what you want to do with your plugin, it's these files you'll likely want to scan through.
 
 ## Setting up your Work Environment
 
