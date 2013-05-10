@@ -9,7 +9,7 @@ headline: "images/blog/tilemill-plugins.png"
 
 ---
 
-Writing a plugin for [TileMill](http://mapbox.com/tilemill) is a great way to add features or additional functionality you'd like to see in the app. If you have a good understanding of how [Backbone](http://backbonejs.org) works you're well primed to stat authoring your own. For those not familiar with the plugins interface here's a screenshot of what it looks like
+Writing a plugin for [TileMill](http://mapbox.com/tilemill) is a great way to add features or additional functionality you'd like to see in the app. If you have a good understanding of how [Backbone](http://backbonejs.org) works you're well primed to stat authoring your own. For those not familiar with the plugins interface here's a screenshot of what it looks like:
 
 ![](http://cl.ly/LIVX/screenshot_2012-12-02Screen%20Shot%202012-12-02%20at%205.06.47%20PM.png)
 
