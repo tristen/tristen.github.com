@@ -1,5 +1,5 @@
 ---
-published: "true"
+published: "false"
 layout: blog
 category: blog
 title: Writing TileMill Plugins in OSX
