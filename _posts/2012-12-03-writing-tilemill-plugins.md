@@ -12,7 +12,7 @@ Writing a plugin for [TileMill](http://mapbox.com/tilemill) is a great way to ad
 
 ![](http://cl.ly/LIVX/screenshot_2012-12-02Screen%20Shot%202012-12-02%20at%205.06.47%20PM.png)
 
-The section under _available_ is where you'll find plugins in the wild (or otherwise not installed) and your's too could be on that list for others to use but before I jump into building one let's dive into TileMill.
+The section under _available_ is where you'll find plugins in the wild (or otherwise not installed) and your's too could be on that list for others to use but before I jump into building one let's dive into TileMill. Hey there. 
 
 <div class='note'>
 <strong>Note:</strong> Plugins are not officially supported and may potentially break existing TileMill functionality. If you encounter bugs with TileMill, report them <a href='https://github.com/mapbox/tilemill/issues'>to the issue tracker</a> but disable any custom plugins you may have and test again.
