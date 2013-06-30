@@ -30,7 +30,17 @@ var cancel = function(event) {
             {
                 "name": "tablesort",
                 "url": "http://tristen.ca/tablesort/demo/",
-                "description": "Dependency free sorting component for tables."
+                "description": "A sorting component for tables."
+            },
+            {
+                "name": "hoverintent",
+                "url": "http://tristen.ca/hoverintent/",
+                "description": "Hover events when the user intends it."
+            },
+            {
+                "name": "MapList",
+                "url": "http://maplist.io",
+                "description": "Create Lists of things on a map and save as Gists."
             },
             {
                 "name": "HCL Picker",
@@ -40,7 +50,7 @@ var cancel = function(event) {
             {
                 "name": "Superman",
                 "url": "https://github.com/tristen/superman",
-                "description": "A dark vim theme."
+                "description": "A dark theme for vim."
             }
         ],
 
@@ -62,6 +72,8 @@ var cancel = function(event) {
 
             for (var i = 0; i < this.projects.length; i++) {
                 var li = document.createElement('li');
+
+                li.className = 'col4';
                 li.innerHTML = '<a href="' + this.projects[i].url + '">' + this.projects[i].name + '</a>' +
                 '<p>' + this.projects[i].description + '</p>';
                 p.appendChild(li);
