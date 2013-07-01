@@ -432,24 +432,6 @@ strong {
     }
 
 /*-----------------------------------
-  Blog: post specific styles
--------------------------------------*/
-.tilemill-plugins {
-  background-color:#b6e2ee;
-  }
-  .tilemill-plugins .blog a {
-    color:#000;
-    text-decoration:underline;
-    }
-
-.maplist {
-  background-color:#5a8cd2;
-  }
-  .maplist .blog a {
-    color:#fff;
-    }
-
-/*-----------------------------------
   Pygments
 -------------------------------------*/
 .highlight .err { color: #a61717; background-color: #e3d2d2; } /* Error */

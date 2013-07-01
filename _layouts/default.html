@@ -23,7 +23,7 @@
   <script src='{{site.baseurl}}/ext/jquery.min.js'></script>
   <script src='{{site.baseurl}}/site.js'></script>
 </head>
-<body class='{{page.class}}{% if page.url == '/index.html' %}front{% endif %}'>
+<body class='{% if page.url == '/index.html' %}front{% endif %}'>
   {% include masthead.html %}
   {{ content }}
   <script>
