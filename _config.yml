@@ -3,3 +3,31 @@ server: true
 baseurl:
 permalink: /:categories/:title
 pygments: true
+
+prose:
+  siteurl: 'http://tristen.ca'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "headline"
+        field:
+          element: "text"
+          label: "Headline Image"
+          value: ""
+      - name: "css"
+        field:
+          element: "textarea"
+          label: "Custom CSS"
+          value: ""
