@@ -6,6 +6,7 @@ pygments: true
 
 prose:
   siteurl: 'http://tristen.ca'
+  media: 'media'
   metadata:
     _posts:
       - name: "category"
