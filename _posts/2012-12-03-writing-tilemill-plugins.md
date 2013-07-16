@@ -2,8 +2,7 @@
 layout: blog
 category: blog
 published: true
-title: 
-  - Writing TileMill Plugins
+title: Writing TileMill Plugins
 headline: "images/blog/tilemill-plugins.png"
 css: null
 permalink: "/blog/writing-tilemill-plugins"
