@@ -4,7 +4,14 @@ category: blog
 published: true
 title: Writing TileMill Plugins
 headline: "images/blog/tilemill-plugins.png"
-css: null
+css: |
+    body {
+        background-color:#b6e2ee;
+    }
+    body .blog a {
+        color:#000;
+        text-decoration:underline;
+    }
 permalink: "/blog/writing-tilemill-plugins"
 ---
 
