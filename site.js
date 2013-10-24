@@ -90,7 +90,7 @@ var cancel = function(event) {
                   "klass":4,
                   "dates": "2011 - present",
                   "title": "MapBox",
-                  "description": "Got a job at DevelopmentSeed / MapBox. I presently live between here and Toronto."
+                  "description": "Currently living in Washington, DC and working at MapBox"
                 }
               },
               {
@@ -102,7 +102,7 @@ var cancel = function(event) {
                   "klass":3,
                   "dates": "2000 - present",
                   "title": "Toronto",
-                  "description": "Completed a BMus at the University of Toronto. Realized I didn't want to be a jazz musician. Became interested in web design and development."
+                  "description": "Graduated with a BMus at University of Toronto. Didn't want to be a Musician. Got interested in other creative things."
                 }
               },
               {
