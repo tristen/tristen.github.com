@@ -100,7 +100,7 @@ var cancel = function(event) {
                 },
                 "properties": {
                   "klass":3,
-                  "dates": "2000 - present",
+                  "dates": "2000 - 2013",
                   "title": "Toronto",
                   "description": "Graduated with a BMus at University of Toronto. Didn't want to be a Musician. Got interested in other creative things."
                 }
