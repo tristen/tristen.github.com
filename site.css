@@ -1,67 +1,9 @@
-/* ------------------------------------------
-  Reset ♥
-  http://meyerweb.com/eric/tools/css/reset/
-  v2.0 | 20110126
-  License: none (public domain)
----------------------------------------------*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  font-size:100%;
-  font:inherit;
-  vertical-align:baseline;
-  }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display:block;
-  }
-body { line-height:1; }
-ol, ul { list-style:none;  }
-blockquote, q { quotes:none; }
-blockquote:before, blockquote:after,
-q:before, q:after { content:''; content:none; }
-/* tables still need 'cellspacing="0"' in the markup */
-table { border-collapse: collapse; border-spacing:0; }
-/* remember to define focus styles. Hee Haw */
-:focus { outline:0; }
-
-*::-webkit-scrollbar {
-    background:#fff;
-    width:15px;
-    }
-*::-webkit-scrollbar-thumb {
-  background:#ccc;
-  border-radius:15px;
-  border:5px #fff solid;
-  }
-
-/*-----------------------------------
-  Typography
--------------------------------------*/
 input,
 textarea,
 body {
+  background:#f0f0f0;
   font:500 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color:#404040;
-  }
-body {
-  margin:0; padding:0;
-  overflow-x:hidden;
-  -webkit-font-smoothing:antialiased;
+  color:#626d75;
   }
 input {
   max-width:100%;
@@ -198,22 +140,23 @@ strong {
   font-weight:bold;
   }
 
-/*-----------------------------------
-  Layout
--------------------------------------*/
-.front #masthead {
-  position:relative;
-  min-height:240px;
+.card {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-180px 0 0 -16.6666%;
+  width:480px;
+  height:220px;
   }
-  .front #masthead #t-toggle {
-    display:none;
-    }
+  @media only screen and (max-width:640px) {
+    .card {
+      width:100%;
+      height:100%;
+      top:0;left:0;
+      margin:0;
+      }
+    }  
 
-.limiter {
-  width:720px;
-  padding:40px 20px;
-  margin:0 auto;
-  }
 .headline {
   margin-top:60px;
   }
@@ -221,142 +164,13 @@ strong {
     margin-bottom:60px;
     }
 
-/*-----------------------------------
-  Style
--------------------------------------*/
-#map {
-  background:#ebf7ff;
-  position:absolute;
-  top:0;bottom:0;left:0;right:0;
-  height:100%;
-  width:100%;
-  }
-#map .zoomer {
-  border-color:#fff;
-  }
-  #map .zoomin {
-    left:42px;
-    }
-
-.marker {
-  background:#F3734F;
-  color:#fff;
-  font-weight:500;
-  font-weight:bold;
-  width:30px;
-  height:30px;
-  line-height:30px;
-  margin:-30px 0px 0px -15px;
-  z-index:100000;
-  cursor:pointer;
-  pointer-events:auto;
-  text-align:center;
-  border:none;
-  -webkit-transition:background-color 150ms linear;
-     -moz-transition:background-color 150ms linear;
-       -o-transition:background-color 150ms linear;
-          transition:background-color 150ms linear;
-  -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.25);
-          box-shadow:0 2px 4px rgba(0,0,0,0.25);
-  -webkit-border-radius:50%;
-          border-radius:50%;
-  }
-  .marker:hover {
-    background-color:#f2663f;
-    }
-  .marker.active {
-    background-color:#404040;
-    }
-.m-popup {
-  font:500 13px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  border:1px solid #ccc;
-  background:#fff;
-  color:#303030;
-  position:absolute;
-  right:-5px;
-  top:34px;
-  width:220px;
-  margin-left:-120px;
-  display:none;
-  padding:10px;
-  text-align:left;
-  -webkit-animation-duration:150ms;
-     -moz-animation-duration:150ms;
-       -o-animation-duration:150ms;
-          animation-duration:150ms;
-  -webkit-animation-fill-mode:both;
-     -moz-animation-fill-mode:both;
-       -o-animation-fill-mode:both;
-          animation-fill-mode:both;
-  -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.25);
-          box-shadow:0 2px 4px rgba(0,0,0,0.25);
-  -webkit-border-radius:4px;
-          border-radius:4px;
-  }
-  .m-popup:after {
-    bottom:100%;
-    border:solid transparent;
-    content:'';
-    height:0;
-    width:0;
-    right:10px;
-    position:absolute;
-    border-bottom-color:#fff;
-    border-width:10px;
-    }
-  .active .m-popup {
-    display:block;
-    -webkit-animation-name:fadeUpIn;
-       -moz-animation-name:fadeUpIn;
-         -o-animation-name:fadeUpIn;
-            animation-name:fadeUpIn;
-    }
-  .m-popup .date {
-    font-size:11px;
-    color:#c0c0c0;
-    text-transform:uppercase;
-    }
-  .m-popup h2 {
-    font-weight:bold;
-    margin-bottom:5px;
-    }
-  .m-popup p {
-    color:#626D75;
-    }
-
-.end {
-  background:#fff;
-  color:#404040;
-  padding:20px 20px 60px;
-  }
-
-@-webkit-keyframes fadeUpIn {
-	0%    { opacity: 0; -webkit-transform: translateY(10px); }
-	100%  { opacity:1; -webkit-transform:translateY(0); }
-  }
-@-moz-keyframes fadeUpIn {
-	0%    { opacity:0; -moz-transform:translateY(10px); }
-	100%  { opacity:1; -moz-transform:translateY(0); }
-  }
-@-o-keyframes fadeUpIn {
-	0%    { opacity:0; -o-transform:translateY(10px); }
-	100%  { opacity:1; -o-transform:translateY(0); }
-  }
-@keyframes fadeUpIn {
-	0%    { opacity:0; transform:translateY(10px); }
-	100%  { opacity:1; transform:translateY(0); }
-  }
-
-/*-----------------------------------
-  Blog: Style
--------------------------------------*/
 .dark {
   background:#202020;
   color:#fff;
   }
 
 .blog {
-  font:normal 125%/1.5em 'leitura-news-1','leitura-news-2',Georgia,'Times New Roman','Hoefler Text';
+  font-family:Georgia,'Times New Roman','Hoefler Text';
   }
 
 .blog h1,
@@ -519,9 +333,6 @@ strong {
 .highlight .vg,                     /* Name.Variable.Global */
 .highlight .vi { color: #008080; }  /* Name.Variable.Instance */
 
-/*-----------------------------------
-  Mobile
--------------------------------------*/
 @media only screen and (max-width:640px) {
   .front #masthead {
     height:440px;
@@ -545,22 +356,3 @@ strong {
       }
 }
 
-/*-----------------------------------
-  Lil Helpers
--------------------------------------*/
-.centered {
-  display:block;
-  text-align:center;
-  }
-
-/*Markup free clearing
-Details: http: //perishablepress.com/press/2009/12/06/new-clearfix-hack*/
-.clearfix:after {
-  content:'';
-  display:block;
-  height:0;
-  clear:both;
-  visibility:hidden;
-  }
-* html .clearfix { height:1%; }
-*:first-child + html .clearfix { min-height:1%; }
