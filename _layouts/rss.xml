@@ -11,7 +11,7 @@
   <item>
     <title>{{item.title}}</title>
     <link>http://tristen.ca{{item.url}}</link>
-    <description>{{item.subtitle | markdownify | xml_escape}}</description>
+    <description>{{item.subtitle | xml_escape}}</description>
     <pubDate>{{item.date | date_to_xmlschema}}</pubDate>
     <dc:creator>tristen</dc:creator>
     <guid isPermaLink="true">http://tristen.ca{{item.url}}</guid>
