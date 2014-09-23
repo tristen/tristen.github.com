@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/tristen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tristen.ca
+  * I am tristen (https://keybase.io/tristen) on keybase.
+  * I have a public key with fingerprint 23F4 692B 36D5 EEDF 9027  CEE1 F548 B4B3 2CE4 D15F
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "23f4692b36d5eedf9027cee1f548b4b32ce4d15f",
+            "host": "keybase.io",
+            "key_id": "f548b4b32ce4d15f",
+            "uid": "714c9e25a87d8a60b0d0fd9395793b00",
+            "username": "tristen"
+        },
+        "service": {
+            "hostname": "tristen.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411443578,
+    "expire_in": 157680000,
+    "prev": "b7c67f3af47cc2360d93d766136c7a7aa40345065e1a3bce1c91236021ba961f",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHeAnicbZFdSBRRGIZH83ehtCwCA3+mi0AXm/+zs2Qp0j8pZpZltpyZOaOj7sw2
+M7tmYoIEJWpIokhWRIKEhHalRhareRMSGElmBEkmSspCXUS0CJ2Rugg6N4fznud9
+v+87Z3rrFsIVw80S4uOkHddjZsKRIHEma+1qEykZSiPpbSLr0Oamano1MgOmptuk
+l2RYlRNERmIFhUdIUUWKATJCtMpzHomTWEZGnELzKukmawzLceAYCVooTzOwhg8+
+TcHqf/jg5gWgOVlEDA89QPFAgZIohVIVkRV5ILISRTmghUwd+hGmbVOzbKSTzW4S
+iyFNRk7LTuV/gTwZYmPANGxDNuqxXmPbAa9jsxsDDteAJN+fBJ+k6QoeGhtCyLQ0
+Qye9NCZlW3MiaY6mOY7lgcdNoisBzUQ+zSF4IHgovJwyKIQjJSALQGWhygFZZliB
+wlMoQBBoVpABBBByFMvxlMAjGrKSjGhZpB2MoSUoCrTzJBa6rBukF+A2YTWOtLRq
+HdpBE5HNU+GLcUSMi0iIj3W+jXAlp/79TKo9iejNNY6cm5/sm5sLnx0ySgZOdb7x
+5w1Gd2VlbJzvuX1oPCf95cNfbWX3up6lh9Y7hIWUSMHiDd/wz+7pjpLIhJ1Y8elu
+4tdQzkzK535P/sRbNXWxqLyT66iM1o0kNE18iyxnmmXh1IXC3Q1uf+4J114x88no
+7NH5lf7lovbJfVPh4dihj4829MHmsZbRaO/8tSx+Oyr+clxtKd6IG8jILMgvjE8+
+fHC1/r0Z7WkLul6N82n3wy+WXD+o6dKVkW0j9unsbKvk2M748tKy0db1B08rX98s
+XmLBcP/g6qXWFfeBCxXZaVVr7d0Vzz/s8Vm1VbV3+rrq9vvXxr5nnHx3i/0N7okP
+DQ==
+=Q4OQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tristen
+
+==================================================================
