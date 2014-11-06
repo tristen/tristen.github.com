@@ -14,8 +14,8 @@
   <title>tristen {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
   <link rel='shortcut icon' href='{{site.baseurl}}/images/favicon.ico' type='image/x-icon' />
   <link rel='alternate' type='application/rss+xml' title='RSS' href='{{site.url}}/blog/blog.rss' />
-  <link rel='stylesheet' href='{{site.baseurl}}/global.css' />
   <link rel='stylesheet' href='{{site.baseurl}}/site.css' />
+  {% if page.head %}{{page.head}}{% endif %}
 </head>
 <body>
   {{ content }}
